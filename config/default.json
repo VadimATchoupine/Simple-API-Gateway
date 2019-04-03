@@ -1,0 +1,22 @@
+{
+	"microservice": {
+		"config": {
+			"host": "localhost",
+			"port": 3000,
+			"services": [
+				{
+					"name": "API Server 1",
+					"url": "http://localhost",
+					"address": "127.0.0.1",
+					"port": 4000
+				},
+				{
+					"name": "API Server 2",
+					"url": "http://localhost",
+					"address": "127.0.0.1",
+					"port": 4001
+				}
+			]
+		}
+	}
+}
